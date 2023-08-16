@@ -1,6 +1,29 @@
 .produtos{
     width: 90%;
     margin: 0 auto;
-    height: 50.0rem;
-    background-color: rgb(146, 146, 146);
+    height: 90.0rem;
+    background-color: rgb(243, 243, 243);
+   
+}
+.linha-produtos{
+    padding: 2.6rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+    justify-content: space-evenly;
+}
+.produto{
+    margin-top: 2.6rem;
+    width: 30.0rem;
+    height: 45.0rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.produto img{
+    align-items: center;
+    justify-content: center;
+}
+
+.produto:hover{
+    box-shadow: 3px 3px 15px #00000041;
 }
