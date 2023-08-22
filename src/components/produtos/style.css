@@ -17,11 +17,13 @@
     width: 30.0rem;
     height: 45.0rem;
     background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center ;
+    justify-content: center;
 }
 
 .produto img{
-    align-items: center;
-    justify-content: center;
+    margin-top: -20.0rem;
 }
 
 .produto:hover{
